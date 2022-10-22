@@ -1,4 +1,4 @@
-module github.com/ko3luhbka/schema_registry
+module github.com/ko3luhbka/popug_schema_registry
 
 go 1.18
 

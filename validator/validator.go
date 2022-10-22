@@ -7,7 +7,7 @@ import (
 
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/ko3luhbka/schema_registry/schemas"
+	"github.com/ko3luhbka/popug_schema_registry/schemas"
 )
 
 const schemaPathTemplate = "file://versions/%s/%d.json"
