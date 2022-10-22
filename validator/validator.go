@@ -12,7 +12,7 @@ import (
 
 const schemaPathTemplate = "file://versions/%s/%d.json"
 
-func ValidateSchema(data any, schemaType string, schemaVerion int) error {
+func Validate(data any, schemaType string, schemaVerion int) error {
 	schemaPath := fmt.Sprintf(schemaPathTemplate, schemaType, schemaVerion)
 	schemaLoader := gojsonschema.NewReferenceLoaderFileSystem(schemaPath, http.FS(schemas.SchemaFS))
 	dataLoader := gojsonschema.NewGoLoader(data)
