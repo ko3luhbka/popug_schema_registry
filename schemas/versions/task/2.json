@@ -9,7 +9,7 @@
     "properties": {
       "name": {
         "enum": [
-          "taskCreated",
+          "taskAssigned",
           "taskCompleted"
         ],
       "description": "event name"
